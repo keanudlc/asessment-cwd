@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awesome CDN -->
+    <script src="https://kit.fontawesome.com/8be876959e.js" crossorigin="anonymous"></script>
+    <!-- Font awesome CDNJS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <!-- Custom CSS-->
+     <link rel="stylesheet" href="style.css">
+     <!-- Materialize Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <title>Travel Oasis</title>
+    <link rel="website icon" href="images/logo.png" type="png">
+</head>
+<body id="home" class="scrollspy">
+    <!-- Navbar -->
+    <div class="navbar-fixed">
+        <nav class="light-blue accent-2">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo center hide-on-large-only">
+                        <img src="images/logo.png" alt="logo" height="55" width="55">
+                    </a>
+                    <a href="" class="brand-logo left hide-on-med-and-down">TravelOasis</a>
+                    <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#search">Search</a>
+                        </li>
+                        <li>
+                            <a href="#popular">Popular Places</a>
+                        </li>
+                        <li>
+                            <a href="#gallery">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Sidenav -->
+    <ul class="sidenav" id="mobile-nav">
+        <li>
+            <a href="#home">Home</a>
+        </li>
+        <li>
+            <a href="#search">Search</a>
+        </li>
+        <li>
+            <a href="#popular">Popular Places</a>
+        </li>
+        <li>
+            <a href="gallery">Gallery</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+    </ul>
+
+    <!-- Section Slider -->
+    <section class="slider">
+        <ul class="slides">
+            <li>
+              <img src="images/img1.jpg"> 
+              <div class="caption center-align">
+                <h2 class=""><b>Take Your Dream Vacation!</b></h2>
+                <h5 class="light grey-text text-lighten-4 hide-on-small-only">Choose Us for A Hassle-Free Journey.</h5>
+              </div>
+            </li>
+            <li>
+              <img src="images/img2.jpg"> 
+              <div class="caption left-align">
+                <h2><b>Ignite Your Wanderlust</b></h2>
+                <h5 class="light grey-text text-lighten-4">Because Your Couch Doesn’t Have a View.</h5>
+              </div>
+            </li>
+            <li>
+              <img src="images/img3.jpg"> 
+              <div class="caption right-align">
+                <h2 class=""><b>Travel in Style</b></h2>
+                <h5 class="light grey-text text-lighten-4">We’ve Got More Deals than You’ve Got Vacation Days.</h5>
+              </div>
+            </li>
+            <li>
+              <img src="images/img4.png"> 
+              <div class="caption center-align">
+                <h2>Dare to Discover with Us!</h2>
+                <h5 class="light grey-text text-lighten-4">Escape the Ordinary with Extraordinary Journeys.</h5>
+              </div>
+            </li>
+          </ul>
+        </div>
+    </section>
+
+    <!-- Section Search -->
+    <section id="search" class="section section-search cyan accent-1 white-text center scrollspy">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h3 class="teal-text">Search Destinations</h3>
+                    <div class="input-field">
+                        <i class="fa-solid fa-magnifying-glass" style="color: #009688;"></i>
+                        <input type="text" class="white grey-text autocomplete" id="autocomplete-input" placeholder="Abra, Palawan etc...">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sectrion icon Boxes -->
+    <section class="section section-icons grey-ligthen-4 center">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card-panel">
+                        <i class="material-icons large teal-text">room</i>
+                        <h4>Pick Where</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit nulla, reprehenderit esse adipisci voluptates sed temporibus repudiandae rerum dolorum molestias minima aliquam iste eveniet consectetur iusto beatae mollitia animi et.</p>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card-panel">
+                        <i class="material-icons large teal-text">store</i>
+                        <h4>Travel Shop</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit nulla, reprehenderit esse adipisci voluptates sed temporibus repudiandae rerum dolorum molestias minima aliquam iste eveniet consectetur iusto beatae mollitia animi et.</p>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card-panel">
+                        <i class="material-icons large teal-text">airplanemode_active</i>
+                        <h4>Fly Cheap</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit nulla, reprehenderit esse adipisci voluptates sed temporibus repudiandae rerum dolorum molestias minima aliquam iste eveniet consectetur iusto beatae mollitia animi et.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Popular Places -->
+    <section id="popular" class="section section-popular scrollspy">
+        <div class="container">
+            <div class="row">
+                <h4 class="center">
+                    <span class="teal-text">Popular</span> Places
+                </h4>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" src="images/im6.png">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">St. Polycarp Parish<i class="material-icons right">more_vert</i></span>
+                          <p><a href="#">Click for more info</a></p>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">St. Polycarp Parish<i class="material-icons right">close</i></span>
+                          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" src="images/img9.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">Suguicay Island<i class="material-icons right">more_vert</i></span>
+                          <p><a href="#">Click for more info</a></p>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Suguicay Island<i class="material-icons right">close</i></span>
+                          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" src="images/img8.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">Taal Volcano<i class="material-icons right">more_vert</i></span>
+                          <p><a href="#">Click for more info</a></p>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Taal Volcano<i class="material-icons right">close</i></span>
+                          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Section Gallery -->
+    <section id="gallery" class="section section-gallery scrollspy">
+        <div class="container">
+            <h4 class="center">
+                <span class="teal-text">Photo </span>Gallery
+            </h4>
+            <div class="row">
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/1600x900/?beach" alt="" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/1600x900/?travel" alt="" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/1600x900/?sea" alt="" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/1600x900/?vacation" alt="" class="materialboxed responsive-img">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/1600x900/?palm trees" alt="" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/1600x900/?hawaii" alt="" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/1600x900/?island" alt="" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/1600x900/?boracay" alt="" class="materialboxed responsive-img">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/1600x900/?rice fields" alt="" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/1600x900/?travel" alt="" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/1600x900/?field" alt="" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/1600x900/?outing" alt="" class="materialboxed responsive-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section-contact scrollspy">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card-panel teal white-text center">
+                        <i class="material-icons">email</i>
+                        <h5>Contact Us for Booking</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, nisi cum. Cupiditate deleniti autem officia perspiciatis assumenda explicabo iste rem! Assumenda, ullam architecto nam velit tempora quasi unde iure ipsa.</p>
+                    </div>
+                    <ul class="collection with-header">
+                        <li class="collection-header"><h4>Location</h4></li>
+                        <li class="collection-header">TravelOasis</li>
+                        <li class="collection-header">Cabuyao City, Philippines</li>
+                    </ul>
+                </div>
+                <div class="col s12 m6">
+                    <div class="card-panel grey lighten-3">
+                        <h5>Please Fill out this form</h5>
+                        <div class="input-field">
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div class="input-field">
+                            <input type="text" placeholder="Email">
+                        </div>
+                        <div class="input-field">
+                            <input type="text" placeholder="Phone">
+                        </div>
+                        <div class="input-field">
+                            <textarea type="text" placeholder="Enter Message" class="materialize-textarea"></textarea>
+                        </div>
+                        <input type="submit" value="Submit" class="btn">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="page-footer light-blue accent-2">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">About Us</h5>
+              <p class="grey-text text-lighten-4">"Welcome to Travel Oasis – Your Passport to Adventure!✈️
+                <br><br>
+                At Travel Oasis, we specialize in crafting unforgettable travel experiences for adventurers of all kinds. Whether you're seeking a romantic getaway, a family vacation, a solo expedition, or a group adventure, our small travel agency is here to turn your dreams into reality.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Follow Us On</h5>
+              <ul>
+                <li><a href="#" class="white-text">
+                    <i class="fab fa-facebook fa-sm">   Facebook</i>
+                </a>
+                <br>
+                <a href="#" class="white-text">
+                    <i class="fab fa-instagram fa-sm">  Instagram</i>
+                </a>
+                <br>
+                <a href="#" class="white-text">
+                    <i class="fab fa-x-twitter fa-sm">  Twitter</i>
+                </a>
+                <br>
+                <a href="#" class="white-text">
+                    <i class="fab fa-pinterest fa-sm">  Pinterest</i>
+                </a>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2023 All Rights Reserved
+          <a class="grey-text text-lighten-4 right" href="#!">Powered by: K's Web Design</a>
+          </div>
+        </div>
+      </footer>
+
+
+
+
+     <!--JQUery CDN-->
+     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+     <script>
+        $(document).ready(function(){
+            $('.tabs').tabs();
+        });
+     </script>
+     
+     <script>
+         $(document).ready(function(){
+            $('.sidenav').sidenav();
+        });
+     </script>
+     <script>
+        $( document ).ready(function(){
+            $(".dropdown-trigger").dropdown();
+        });
+     </script>
+     
+     <script>
+         $(document).ready(function(){
+            $('.parallax').parallax();
+                });
+     </script>
+
+     <script>
+        const slider = document.querySelector('.slider');
+        M.Slider.init(slider, {
+            indicators: false,
+            height: 500,
+            transition: 500,
+            interval: 6000,
+        });
+        
+     </script>
+
+     <script>
+       const ac = document.querySelector('.autocomplete');
+       M.Autocomplete.init(ac, {
+        data:{
+            "Abra":null,
+            "Batangas":null,
+            "Laguna":null,
+            "Cavite":null,
+            "Quezon Province":null,
+            "Rizal":null,
+            "Mindoro":null,
+            "Manila":null,
+            "Lucena":null,
+            "Boracay":null,
+            "Palawan":null,
+            "Cebu":null,
+            "Surigao":null,
+            "La Union":null,
+        }
+       });
+     </script>
+
+     <script>
+       const mb = document.querySelectorAll('.materialboxed');
+       M.Materialbox.init(mb, {});
+     </script>
+
+     <script>
+        const ss = document.querySelectorAll('.scrollspy');
+        M.ScrollSpy.init(ss, {});
+     </script>
+</body>
+</html>
